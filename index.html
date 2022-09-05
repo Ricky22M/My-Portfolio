@@ -26,7 +26,7 @@
             </nav>
         </header>
 
-        <main class="content">
+        <main>
 
             <section id="aboutMe">
                 <!-- About the person who made the portfolio -->
@@ -36,7 +36,7 @@
                 <image class="faceImage" src="./Assets/Images/MyFace.jpg" alt="A photo of Ricky Medina's face"></image>
 
                 <!-- Knowledge and facts about the owner -->
-                <p>
+                <p class="flex-word">
                     As I mentioned before I am Ricky Medina, I am an 18 year-old aspiring coder.
                     I grew my passion for coding back at my high school in my coding classes.
                     As you go on in my webpage, you'll notice that I am still working on polishing and refining my skills as a coder.
@@ -44,19 +44,32 @@
                 </p>
             </section>
 
+            <br>
+
             <section id="works">
 
                 <!-- Projects and previous work on activities the owner is presenting -->
                 <h2>Works</h2>
-                <div class="boxes">
-                    <a href="https://alathrop2.github.io/Group-6-project-1/"> Camping World</a>
+                <div class="container">
+                    <image id="campingWorld" src="./Assets/Images/Camping-World.png" alt="Camping World project"></image>
+                    <a class="bottom-left" href="https://alathrop2.github.io/Group-6-project-1/"> Camping World</a>
                 </div>
-                <!-- Need to some how link our projects into this section-->
+                <!-- We need to put both of the last two projects together-->
+                <div class="container">
+                    <image class="flex" src="./Assets/Images/Password-Generator.png" alt="Password Generator Project"></image>
+                    <a class="bottom-left" href="https://ricky22m.github.io/Password-Generator-/"> Password Generator</a>
+                </div>
+                <div class="container">
+                    <image class="flex" src="./Assets/Images/R,P,S-Game.png" alt="Rock, Paper, Scissors Game"></image>
+                    <a class="bottom-left" href="https://ricky22m.github.io/Rock-Paper-Scissors-Game/"> Rock, Paper, Scissors Game</a>
+                </div>
                 <!-- we will have to create a github repository for our mini 
                 projects and then we can use the clickable link to send the user to the 
                 deploy application-->
 
             </section>
+
+            <br>
 
             <!-- User input is used to send the owner of this portfolio their contact information -->
             <form id="contactInfo">
@@ -65,11 +78,13 @@
                     <li><strong>Your Name</strong> <input type="text" placeholder="Name"></li>
                     <li><strong>Your Email</strong> <input type="text" placeholder="E-mail Address"></li>
                     <li><strong>Subject</strong> <input type="text" placeholder="Purpose"></li>
-                    <button>Sumbit</button>
+                    <button>Submit</button>
                 </ul>
             </form>
         </main>
-        <!--Need to fill in header-->
+        <!--Need to finish styling footer-->
+
+        <br>
         
         <footer>
             <p>Thank You For Visiting!</p>

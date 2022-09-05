@@ -13,7 +13,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Using display: flex; with flex-wrap: wrap; will help to resize and match the content on the HTML to the user's device screen size */
+
 .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -58,21 +63,77 @@ ul {
     list-style: none;
 }
 
+#aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-word {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .faceImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
     width: 10%;
     height: 10%;
 }
 
+/* stopped at Works part of the styling and display sizing, need to finish display wrapping */
+
+#campingWorld {
+    display: block;
+    margin-left: 200;
+    width: 65%;
+    height: 60%;
+}
+
+.container {
+    margin-left: 500px;
+    position: relative;
+    text-align: center;
+    color: #2a607c;
+}
+
+.bottom-left {
+    background-color: #2a607c;
+    color: #d9dcd6;
+    font-size: 28px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: start;
+    width: 35%;
+    height: 35%;
+}
+
 /* we need to create a boarder around this section of the code */
+/* we need to get the form to display in a column */
 .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
     font-size: 20px;
     border: 10px;
 }
 
 form {
     border-radius: 10px;
+}
+
+/* we need to finish the styling for the footer */
+
+footer {
 
 }

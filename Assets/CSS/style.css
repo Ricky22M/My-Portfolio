@@ -158,35 +158,16 @@ ul {
 /* The "Works" section design ends here */
 
 /* The "Contact Me" section design starts here */
-.list {
-    font-size: 20px;
-    border-style: solid;
-    border: 10px;
-}
 
-form  ul {
-    margin-left: 550px;
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #2a607c;
+    font-size: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    padding-top: 30px;
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    border-style: solid;
-    border-color: #2a607c;
-    border-width: 5px;
-    padding-bottom: 20px;
-}
-
-form button {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 900px;
-    border: #2a607c;
-    border-style: solid;
-    background-color: #2a607c;
-    color: #d9dcd6;
 }
 /* The "Contact Me" section design ends here */
 

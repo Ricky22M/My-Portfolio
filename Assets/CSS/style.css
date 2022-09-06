@@ -91,8 +91,6 @@ ul {
 
 /* The design for the "About Me" ends here */
 
-/* stopped at Works part of the styling and display sizing, need to finish display wrapping */
-
 /* The design for the "Works" section starts here */
 
 #campingWorld {
@@ -145,7 +143,6 @@ ul {
     font-size: 28px;
     position: absolute;
     right: 58%;
-    
 }
 
 .flex {
@@ -159,9 +156,6 @@ ul {
 }
 
 /* The "Works" section design ends here */
-
-/* we need to create a boarder around this section of the code */
-/* we need to get the form to display in a column */
 
 /* The "Contact Me" section design starts here */
 .list {
@@ -185,7 +179,9 @@ form {
     padding-bottom: 20px;
 }
 
-#button {
+form button {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 900px;
     border: #2a607c;
     border-style: solid;

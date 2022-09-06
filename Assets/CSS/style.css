@@ -15,6 +15,7 @@ body {
 
 /* Using display: flex; with flex-wrap: wrap; will help to resize and match the content on the HTML to the user's device screen size */
 
+/* Design of the top of the HTML starts here */
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +48,8 @@ body {
     margin-left: 25px;
 }
 
+/* The design of the top of the HTML ends here */
+
 /* sets all linked text to the color white and adds no decoration to the link text */
 a {
     color: #ffffff;
@@ -63,6 +66,7 @@ ul {
     list-style: none;
 }
 
+/* The design for the "About Me" section starts here */
 #aboutMe {
     display: flex;
     flex-wrap: wrap;
@@ -78,23 +82,33 @@ ul {
 .faceImage {
     display: flex;
     flex-direction: row;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-top: 5%;
     margin-bottom: 2%;
     width: 10%;
     height: 10%;
 }
 
+/* The design for the "About Me" ends here */
+
 /* stopped at Works part of the styling and display sizing, need to finish display wrapping */
+
+/* The design for the "Works" section starts here */
 
 #campingWorld {
     display: block;
+    border-style: solid;
+    border-width: 5px;
     margin-left: 200;
-    width: 65%;
-    height: 60%;
+    width: 70%;
+    height: 65%;
 }
 
 .container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    float: left;
     margin-left: 500px;
     position: relative;
     text-align: center;
@@ -102,6 +116,8 @@ ul {
 }
 
 .bottom-left {
+    display: flex;
+    flex-wrap: nowrap;
     background-color: #2a607c;
     color: #d9dcd6;
     font-size: 28px;
@@ -110,30 +126,77 @@ ul {
     left: 16px;
 }
 
+.bottom-right {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #2a607c;
+    color: #d9dcd6;
+    font-size: 28px;
+    position: absolute;
+    bottom: 16px;
+    right: 11cm;
+}
+
+.bottom-center {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #2a607c;
+    color: #d9dcd6;
+    font-size: 28px;
+    position: absolute;
+    right: 58%;
+    
+}
+
 .flex {
     display: flex;
-    flex-direction: start;
+    flex-wrap: nowrap;
+    align-items: center;
     width: 35%;
     height: 35%;
+    border-style: solid;
+    border-width: 8px;
 }
+
+/* The "Works" section design ends here */
 
 /* we need to create a boarder around this section of the code */
 /* we need to get the form to display in a column */
+
+/* The "Contact Me" section design starts here */
 .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: auto;
     font-size: 20px;
+    border-style: solid;
     border: 10px;
 }
 
-form {
-    border-radius: 10px;
+form  ul {
+    margin-left: 550px;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
-/* we need to finish the styling for the footer */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: #2a607c;
+    border-width: 5px;
+    padding-bottom: 20px;
+}
+
+#button {
+    margin-left: 900px;
+    border: #2a607c;
+    border-style: solid;
+    background-color: #2a607c;
+    color: #d9dcd6;
+}
+/* The "Contact Me" section design ends here */
 
 footer {
-
+    background-color: #2a607c;
+    color: #d9dcd6;
+    text-align: center;
+    padding: 10px;
 }

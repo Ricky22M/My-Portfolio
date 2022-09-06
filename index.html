@@ -7,9 +7,8 @@
     </head>
     <body>
         <header class="header">
-            <!-- Owner of portfolio -->
+            <!-- Owner of portfolio, which is me! -->
             <h1>Ricky Medina</h1>
-
             <!-- Navigation bar -->
             <nav>
                 <ul>
@@ -25,52 +24,32 @@
                 </ul>
             </nav>
         </header>
-
         <main>
-
+            <!-- This section covers details about my experiences and a bit about my life -->
             <section id="aboutMe">
-                <!-- About the person who made the portfolio -->
                 <h2>About Me</h2>
-
-                <!-- Image of the person who the portfolio is about -->
                 <image class="faceImage" src="./Assets/Images/MyFace.jpg" alt="A photo of Ricky Medina's face"></image>
-
-                <!-- Knowledge and facts about the owner -->
                 <p class="flex-word">
                     As I mentioned before I am Ricky Medina, I am an 18 year-old aspiring coder.
                     I grew my passion for coding back at my high school in my coding classes.
                     As you go on in my webpage, you'll notice that I am still working on polishing and refining my skills as a coder.
                     I intend to become a successful coder in my future, but for now, I am taking a bootcamp course from the University of Utah to enchance my abilities as a coder.
                 </p>
+                <br>
             </section>
-
-            <br>
-
+            <!-- This section is about my personal projects and previous worked on activities -->
             <section id="works">
-
-                <!-- Projects and previous work on activities the owner is presenting -->
                 <h2>Works</h2>
                 <div class="container">
                     <image id="campingWorld" src="./Assets/Images/Camping-World.png" alt="Camping World project"></image>
-                    <a class="bottom-left" href="https://alathrop2.github.io/Group-6-project-1/"> Camping World</a>
-                </div>
-                <!-- We need to put both of the last two projects together-->
-                <div class="container">
+                    <a class="bottom-center" href="https://alathrop2.github.io/Group-6-project-1/"> Camping World</a>
                     <image class="flex" src="./Assets/Images/Password-Generator.png" alt="Password Generator Project"></image>
                     <a class="bottom-left" href="https://ricky22m.github.io/Password-Generator-/"> Password Generator</a>
-                </div>
-                <div class="container">
                     <image class="flex" src="./Assets/Images/R,P,S-Game.png" alt="Rock, Paper, Scissors Game"></image>
-                    <a class="bottom-left" href="https://ricky22m.github.io/Rock-Paper-Scissors-Game/"> Rock, Paper, Scissors Game</a>
+                    <a class="bottom-right" href="https://ricky22m.github.io/Rock-Paper-Scissors-Game/"> Rock, Paper, Scissors Game</a>
                 </div>
-                <!-- we will have to create a github repository for our mini 
-                projects and then we can use the clickable link to send the user to the 
-                deploy application-->
-
             </section>
-
-            <br>
-
+        
             <!-- User input is used to send the owner of this portfolio their contact information -->
             <form id="contactInfo">
                 <h2>Contact Me</h2>
@@ -78,14 +57,11 @@
                     <li><strong>Your Name</strong> <input type="text" placeholder="Name"></li>
                     <li><strong>Your Email</strong> <input type="text" placeholder="E-mail Address"></li>
                     <li><strong>Subject</strong> <input type="text" placeholder="Purpose"></li>
-                    <button>Submit</button>
                 </ul>
+                <button id="button">Submit</button>
             </form>
         </main>
-        <!--Need to finish styling footer-->
-
-        <br>
-        
+        <!-- Used to thank the visitor -->
         <footer>
             <p>Thank You For Visiting!</p>
         </footer>

@@ -14,8 +14,19 @@ In the first image you can see the code in the HTMl which will show the user the
 ![Displaying code from the HTML to show how step two works](./Assets/Images/Step-2-navbar.png)
 At the top of this image we are introduced to the navigation bar. In the navigation bar, we are able to see that each section is labeled in the navigation bar as well as linked with the "Id" tags in each section of the HTML.
 
-## Step 3
-![alt text]()
+## Step 3 & 4
+![Displaying code from the HTML which shows code completing step three](./Assets/Images/Step-3-code.png)
+![Displaying the webpage and how the user sees the HTML in step three](./Assets/Images/Step-3-Webpage.png)
+As you can see in this code, the user will be able to click on the image and the user will then be sent to the deployed project they had previously selected/clicked. The second image is of what the step three looks like in the user's perspective. Also in the second image we are able to see that the first project is larger than the other two projects.
+![The CSS code used to complete step four](./Assets/Images/Step-4-CSS.png)
+Now on step four, the way I completed this was by uing the first project as an image and adjusting that image size that would be larger than the other two project images.
 
-image pathway
-![alt text]()
+## Step 5
+![Code for step five](./Assets/Images/Step-3-code.png)
+![Webpage that helps to complete step five](./Assets/Images/Step-3-Webpage.png)
+As you can see in the first image, the user will be able to click on the image and will be redirected to the projects that they have clicked on. On the second image you can see that each image is label with their project name as well as being able to be a clickable link which leads the user to the creator's project.
+
+## Step 6
+![Applying step six in the webpage](./Assets/Images/Step-6-Webpage.png)
+![How CSS code worked for step six](./Assets/Images/Step-6-CSS.png)
+Now at step six, I am unfortunately able to profect the some of the use of flex code in CSS. I am able to get mostly everything to resize execept a few things. In the second image we can see the code that I used to try and resize the screen with the content within the HTML.

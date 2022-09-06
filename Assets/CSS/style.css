@@ -104,7 +104,6 @@ ul {
 
 .container {
     display: flex;
-    flex-wrap: nowrap;
     flex-wrap: wrap;
     float: left;
     margin-left: 500px;
@@ -176,4 +175,6 @@ footer {
     color: #d9dcd6;
     text-align: center;
     padding: 10px;
+    position: relative;
+    width: 100%;
 }
